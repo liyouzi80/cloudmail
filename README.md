@@ -1,16 +1,34 @@
-<p align="center">
-  <img src="doc/demo/logo.png" width="80px" />
-</p>
-
 <div align="center">
-<h1>Cloud Mail</h1>
-</div>
-<div align="center">
+    <img src="doc/demo/logo.png" width="80px" />
+    <h1>Cloud Mail</h1>
     <h4>基于 Cloudflare 的简约响应式邮箱服务，支持邮件发送、附件收发 🎉</h4> 
+    <p align="center">
+        简体中文 | <a href="/README-en.md" style="margin-left: 5px">English </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/maillab/cloud-mail/tree/main?tab=MIT-1-ov-file" target="_blank" >
+            <img src="https://img.shields.io/badge/license-MIT-green" />
+        </a>    
+        <a href="https://github.com/maillab/cloud-mail/releases" target="_blank" >
+            <img src="https://img.shields.io/github/v/release/maillab/cloud-mail" alt="releases" />
+        </a>  
+        <a href="https://github.com/maillab/cloud-mail/issues" >
+            <img src="https://img.shields.io/github/issues/maillab/cloud-mail" alt="issues" />
+        </a>  
+        <a href="https://github.com/maillab/cloud-mail/stargazers" target="_blank">
+            <img src="https://img.shields.io/github/stars/maillab/cloud-mail" alt="stargazers" />
+        </a>  
+        <a href="https://github.com/maillab/cloud-mail/forks" target="_blank" >
+            <img src="https://img.shields.io/github/forks/maillab/cloud-mail" alt="forks" />
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://trendshift.io/repositories/14418" target="_blank" >
+            <img src="https://trendshift.io/api/badge/repositories/14418" alt="trendshift" >
+        </a>
+    </p>
 </div>
-<div align="center">
-    <span>简体中文 | <a href="/README-en.md" style="margin-left: 5px">English </a></span>
-</div>
+
 
 ## 项目简介
 
@@ -20,7 +38,6 @@
 
 - [在线演示](https://skymail.ink)<br>
 - [部署文档](https://doc.skymail.ink)<br>
-- [界面部署](https://doc.skymail.ink/guide/via-ui.html)
 
 | ![](/doc/demo/demo1.png) | ![](/doc/demo/demo2.png) |
 |-----------------------|-----------------------|
@@ -57,7 +74,7 @@
 
 ## 技术栈
 
-- **Serverless**：[Cloudflare Workers](https://developers.cloudflare.com/workers/)
+- **平台**：[Cloudflare Workers](https://developers.cloudflare.com/workers/)
 
 - **Web框架**：[Hono](https://hono.dev/)
 
